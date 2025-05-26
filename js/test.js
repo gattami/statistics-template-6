@@ -1,6 +1,6 @@
 // Dropdowns för testtyp och kön
 let ttestTypes = [
-
+  
   'Age Group (Financial Stress = 5)',
   'Age 18–22 vs 31+ (Financial Stress = 5)',
   'Gender (City = Bigger City, Financial Stress = 4)'
@@ -30,14 +30,14 @@ So, age doesn't seem to matter much in this specific group.
   addMdToPage(`
 Among men aged 18–22, the average depression score is 0.89, compared to 0.68 for men over 31.  
 Among women, the pattern is nearly the same: 0.88 for the younger group and 0.69 for the older.  
-That’s a big gap and it’s statistically significant.  
+That’s a big gap – and it’s statistically significant.  
 This suggests that age plays a major role when stress is high.  
 In short: younger adults are more vulnerable to depression than older ones especially in tough financial times.
   `);
 
-} else if (selectedTest === 'Gender (City = Bigger City, Financial Stress = 4)') {
+} else if (selectedTest === 'Gender (City = Bigger City, Financial Stress)') {
   addMdToPage(`
-In big cities with financial stress (level 4), women report slightly more depression than men.  
+In big cities with financial stress), women report slightly more depression than men.  
 The average score is 0.73 for women and 0.71 for men.  
 But the difference is very small, and the t-value (1.58) shows it's not statistically significant.  
 So, gender doesn't seem to make a clear difference in this case.
