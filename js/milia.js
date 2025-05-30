@@ -29,7 +29,7 @@ let rawData = await dbQuery(`
   ORDER BY City_Type, StressLevel
 `);
 
-// 4. Pivot för diagram
+// diagram
 function pivotByCityType(data) {
   const result = {};
   const types = ['Bigger City', 'Smaller City'];

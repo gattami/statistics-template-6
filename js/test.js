@@ -1,6 +1,6 @@
 // Dropdowns för testtyp och kön
 let ttestTypes = [
-  
+
   'Age Group (Financial Stress = 5)',
   'Age 18–22 vs 31+ (Financial Stress = 5)',
   'Gender (City = Bigger City, Financial Stress = 4)'
@@ -127,7 +127,7 @@ if (groupNames.length !== 2) {
   **Group 2 (${groupNames[1]})**: n = ${group2.length}, mean = ${result.mean2}  
   **t-value** = ${result.tValue}  
   _Degrees of freedom = ${result.df}_  
-  _Note: Significance must be interpreted against critical t-values in stats table or tool_
+  
   `);
 
   let depressedPerGroup = rawData
